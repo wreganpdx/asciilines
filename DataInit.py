@@ -10,7 +10,7 @@ class DataInit(object):
     def retrieve():
         arguments = len(sys.argv)
         if arguments > 1:
-            print("retrieving file: %s" % sys.argv[1])
+           # print("retrieving file: %s" % sys.argv[1])
             return DataInit.getDataF(sys.argv[1])
         else:
             return DataInit.getData()
@@ -54,7 +54,6 @@ class DataInit(object):
 
             graphInfo = []
             for line in open(fName):
-                print(line)
                 graphInfo.append(np.array(line.rstrip().split(' ')))
             return graphInfo
 
@@ -63,7 +62,6 @@ class DataInit(object):
         if os.path.exists(fName):
             graphInfo = []
             for line in open(fName):
-                print(line.rstrip())
                 graphInfo.append(np.array(line.rstrip().split(' ')))
             return graphInfo
         else:

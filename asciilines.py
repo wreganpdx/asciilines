@@ -4,13 +4,10 @@ from fillGraph import  fillGraph
 import numpy as np
 data = DataInit.retrieve()
 
-print (data)
 
 g = interpret.doGraph(data)
 
 a = np.full((g.height, g.width), '.')
-
-print(a)
 
 fillGraph.fill(a, g)
 
