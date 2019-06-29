@@ -1,4 +1,4 @@
-class Graph(object):
+class graph(object):
 
     def __init__(self, _width, _height):
         self.width = _width
@@ -9,4 +9,3 @@ class Graph(object):
     def addLine(self, line):
         self.lines.append(line)
 
-    
