@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="355c5ed6-5e98-45af-aa6e-f637123533ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DataInit.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataInit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asciilines.py" beforeDir="false" afterPath="$PROJECT_DIR$/asciilines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fillGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/fillGraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interpret.py" beforeDir="false" afterPath="$PROJECT_DIR$/interpret.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/line.py" beforeDir="false" afterPath="$PROJECT_DIR$/line.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,6 +155,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
